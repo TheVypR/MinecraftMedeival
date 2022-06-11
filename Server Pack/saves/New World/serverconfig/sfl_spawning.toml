@@ -1,0 +1,49 @@
+
+["General settings"]
+	#Dimensions in which the mimic's can't spawn
+	dimensionBlacklist = [""]
+
+["Spawn settings"]
+	#Spawn weight [Default: 1]
+	#Range: 0 ~ 100
+	weight = 1
+	#Max group size [Default: 1]
+	#Range: 0 ~ 64
+	maxGroup = 1
+	#Min group size [Default: 1]
+	#Range: 0 ~ 64
+	minGroup = 1
+
+["Water Spawn Settings"]
+	#Min group size [Default: 1]
+	#Range: 0 ~ 64
+	waterMinGroup = 1
+	#Max group size [Default: 1]
+	#Range: 0 ~ 64
+	waterMaxGroup = 1
+	#Spawn weight [Default: 1]
+	#Range: 0 ~ 100
+	waterWeight = 1
+
+["Nether Spawn Settings"]
+	#Max group size [Default: 1]
+	#Range: 0 ~ 64
+	netherMaxGroup = 1
+	#Min group size [Default: 1]
+	#Range: 0 ~ 64
+	netherMinGroup = 1
+	#Spawn weight [Default: 1]
+	#Range: 0 ~ 100
+	netherWeight = 1
+
+["End Spawn Settings"]
+	#Spawn weight [Default: 1]
+	#Range: 0 ~ 100
+	endWeight = 1
+	#Min group size [Default: 1]
+	#Range: 0 ~ 64
+	endMinGroup = 1
+	#Max group size [Default: 1]
+	#Range: 0 ~ 64
+	endMaxGroup = 1
+
