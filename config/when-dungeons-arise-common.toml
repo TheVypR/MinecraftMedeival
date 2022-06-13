@@ -15,13 +15,13 @@
 			illagerCampsiteGenerates = true
 			#Maximum separation between Illager Campsites (in chunks).
 			#Range: 0 ~ 1000000
-			illagerCampsiteSpacing = 60
+			illagerCampsiteSpacing = 100
 			#Minimum spacing between Illager Campsites (in chunks).
 			#Range: 0 ~ 1000000
-			illagerCampsiteSeparation = 30
+			illagerCampsiteSeparation = 50
 			#Number of Jigsaw iterations when generating an Illager Campsite.
 			#Range: 0 ~ 1000000
-			illagerCampsiteSize = 10
+			illagerCampsiteSize = 12
 			#Whether Illager Campsites adapt the terrain around them or not.
 			illagerCampsiteTransformsTerrain = true
 			#The point in which Illager Campsites will start spawning. This is based around X = 0, Z = 0.
@@ -35,13 +35,13 @@
 			merchantCampsiteGenerates = true
 			#Maximum separation between merchant Campsites (in chunks).
 			#Range: 0 ~ 1000000
-			merchantCampsiteSpacing = 60
+			merchantCampsiteSpacing = 100
 			#Minimum spacing between merchant Campsites (in chunks).
 			#Range: 0 ~ 1000000
-			merchantCampsiteSeparation = 40
+			merchantCampsiteSeparation = 45
 			#Number of Jigsaw iterations when generating an merchant Campsite.
 			#Range: 0 ~ 1000000
-			merchantCampsiteSize = 10
+			merchantCampsiteSize = 15
 			#Whether merchant Campsites adapt the terrain around them or not.
 			merchantCampsiteTransformsTerrain = true
 			#The point in which merchant Campsites will start spawning. This is based around X = 0, Z = 0.
@@ -63,12 +63,12 @@
 			illagerCastleSeparation = 60
 			#Number of Jigsaw iterations when generating an Illager Castle.
 			#Range: 0 ~ 1000000
-			illagerCastleSize = 10
+			illagerCastleSize = 15
 			#Whether Illager Castles adapt the terrain around them or not.
 			illagerCastleTransformsTerrain = true
 			#The point in which Illager Castles will start spawning. This is based around X = 0, Z = 0.
 			#Range: 0 ~ 1000000
-			illagerCastleSpawnpointSeparation = 1
+			illagerCastleSpawnpointSeparation = 10
 			#Whether cartographer villagers generate maps for Illager Castles or not.
 			illagerCastleMapTrades = true
 

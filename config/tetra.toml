@@ -11,7 +11,7 @@
 	#Enables commands & data reloading functionality useful for development, has a negative impact on performance
 	development = false
 	#If enabled and Curios is installed, Toolbelts will only work in the Curio belt slot
-	toolbelt_curio_only = false
+	toolbelt_curio_only = true
 	#Multiplier for magic capacity gains, increasing this may be useful when having a large set enchantments added by other mods
 	#Range: 0.0 ~ 1.7976931348623157E308
 	magic_cap_multiplier = 1.0
@@ -24,7 +24,7 @@
 [worldgen]
 	#The number of geodes that should generate per chunk, set to 0 to disable
 	#Range: 0 ~ 65536
-	geode_density = 120
+	geode_density = 90
 	#Generates features in the world, further configuration available in "tetra/data/structures/"
 	features = true
 	#Used to limit how deep the feature generator will recurse into feature children, helps to avoid recursive loops and cascading worldgen in 3d-party generation features
@@ -36,7 +36,7 @@
 	enabled = true
 	#The base value for number of uses required for a module to settle
 	#Range: > -2147483648
-	settle_base = 270
+	settle_base = 300
 	#Level multiplier for settling limit, a value of 3 would cause a module that has settled once to require 3x as many uses before it settles again
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
 	settle_level_multiplier = 3.0
