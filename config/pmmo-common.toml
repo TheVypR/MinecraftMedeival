@@ -2,7 +2,7 @@
 [Miscellaneous]
 	#At what durability percentage should the xp bonus start going down from? (75 means that at 75% durability or above, the xp bonus will be max, and at 37.5%, the xp boost will be half
 	#Range: 0.0 ~ 100.0
-	scaleXpBoostByDurabilityEnd = 50.0
+	scaleXpBoostByDurabilityEnd = 75.0
 	#Should the Welcome message come up?
 	showWelcome = true
 	#Should Xp Boosts be scaled by the item Durability? (Max boost at Max durability, 50% at half Durability)
@@ -17,15 +17,15 @@
 	#Should right click xp be enabled?
 	rightClickXpEnabled = true
 	#Should a warning come up if your Project MMO is outdated?
-	warnOutdatedVersion = false
+	warnOutdatedVersion = true
 
 [Party]
 	#How much bonus xp a Party gains extra, per player? (5 = 1 player -> 5% xp bonus, 2 players -> 10% xp bonus
 	#Range: 0.0 ~ 1.0E9
-	partyXpIncreasePerPlayer = 2.0
+	partyXpIncreasePerPlayer = 5.0
 	#How much damage you can deal to people in the same Party (0 = no damage, 100 = full damage)
 	#Range: 0.0 ~ 100.0
-	partyFriendlyFireAmount = 75.0
+	partyFriendlyFireAmount = 33.333333333333336
 	#In what range do Party members have to be to benefit from the other members?
 	#Range: 1.0 ~ 1.0E9
 	partyRange = 64.0
@@ -33,7 +33,7 @@
 	autoLeavePartyOnDisconnect = false
 	#How many Members can a party have?
 	#Range: 1 ~ 1000000000
-	partyMaxMembers = 4
+	partyMaxMembers = 10
 	#How much bonus xp is the maximum that a Party can receive? (50 = 50% increase max. If partyXpIncreasePerPlayer is 5, and there are 20 members, the xp bonus caps at 50%, at 10 members)
 	#Range: 0.0 ~ 1.0E9
 	maxPartyXpBonus = 50.0

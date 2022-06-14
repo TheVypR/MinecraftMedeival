@@ -1,2 +1,2 @@
-performVersionCheck = false
+performVersionCheck = true
 disableFoodRestrictions = false

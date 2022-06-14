@@ -1,12 +1,3 @@
 Rick,
 Bob,
-Eve,
-Irving,
-Levi,
-Justin,
-Isaac,
-Garman,
-Joe Mama,
-Deez,
-Ligma,
-Morty
+Eve

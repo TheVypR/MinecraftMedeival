@@ -30,30 +30,30 @@
 	[Generation.Dragon]
 		#Ratio of Stone(this number) to Ores in Dragon Caves
 		#Range: 1 ~ 10000
-		"Dragon Cave Ore Ratio" = 25
+		"Dragon Cave Ore Ratio" = 20
 		#Whether to generate dragon skeletons or not
 		"Generate Dragon Skeletons" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Generate Dragon Cave Chance" = 120
+		"Generate Dragon Cave Chance" = 10
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Generate Dragon Roost Chance" = 300
+		"Generate Dragon Roost Chance" = 10000
 		#Whether to generate dragon caves or not
 		"Generate Dragon Caves" = true
 		#Whether to generate dragon roosts or not
 		"Generate Dragon Roosts" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Generate Dragon Skeleton Chance" = 340
+		"Generate Dragon Skeleton Chance" = 100
 		#1 out of this number chance per block that gold will generate in dragon lairs.
 		#Range: 1 ~ 10000
-		"Dragon Den Gold Amount" = 2
+		"Dragon Den Gold Amount" = 5
 
 	[Generation.Structures-Features]
 		#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from spawn(0, 0).
 		#Range: 1 ~ 10000
-		"Dangerous World Gen Dist From Spawn" = 800
+		"Dangerous World Gen Dist From Spawn" = 400
 		#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from the last generated structure.
 		#Range: 1 ~ 10000
 		"Dangerous World Gen Dist Seperation" = 300
@@ -78,7 +78,7 @@
 	[Dragons.Behaviour]
 		#How high dragons can fly, in Y height.
 		#Range: > 100
-		"Max Dragon Flight Height" = 256
+		"Max Dragon Flight Height" = 128
 		#True if dragons can break blocks if they get stuck. Turn this off if your dragons randomly explode.
 		"Dragons Dig When Stuck" = true
 		#True if tamed dragons go to sleep at night.
@@ -87,7 +87,7 @@
 		"Dragons Despawn" = true
 		#How many blocks away can dragons spot potential prey. Note that increasing this could cause lag.
 		#Range: 1 ~ 10000
-		"Dragon Target Search Length" = 96
+		"Dragon Target Search Length" = 128
 		#True if dragons can drop their skull on death.
 		"Dragons Drop Skull" = true
 		#True if villagers should run away and hide from dragons and other hostile Ice and Fire mobs.
@@ -111,7 +111,7 @@
 		"Dragons Drop Blood" = true
 		#Every interval of this number in ticks, dragon hunger decreases.
 		#Range: 1 ~ 10000
-		"Dragon Hunger Tick Rate" = 10000
+		"Dragon Hunger Tick Rate" = 3000
 		#True if animals should run away and hide from dragons and other hostile Ice and Fire mobs.
 		"Animals Fear Dragons" = true
 
@@ -120,45 +120,45 @@
 		blacklistedBreakBlocks = []
 		#Dragon griefing - 2 is no griefing, 1 is breaking weak blocks, 0 is default
 		#Range: 0 ~ 2
-		"Dragon Griefing" = 1
+		"Dragon Griefing" = 0
 		#True if tamed dragons can follow the griefing rules.
 		"Tamed Dragon Griefing" = true
 		#The percentage chance for a block to drop as an item when a dragon breaks it.
 		#Range: 0.0 ~ 1.0
-		"Dragon Block Breaking Drop Chance" = 0.01000000149011612
+		"Dragon Block Breaking Drop Chance" = 0.10000000149011612
 		#Blocks that a dragon can break, but won't spawn drops for. Use the format like "minecraft:stone" or "rats:block_of_cheese" 
 		noDropBreakBlocks = ["minecraft:stone", "minecraft:dirt", "minecraft:grass_block"]
 
 	[Dragons.Attributes]
 		#Damage dealt from a successful lightning breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 		#Range: 0.0 ~ 10000.0
-		"Dragon Attack Damage(Lightning breath)" = 4.5
+		"Dragon Attack Damage(Lightning breath)" = 3.5
 		#Dragon Flute Distance - how many chunks away is the dragon flute effective?
 		#Range: 0 ~ 10000
 		"Dragon Flute Distance" = 4
 		#Max dragon health. Health is scaled to this
 		#Range: 1.0 ~ 100000.0
-		"Dragon Health" = 600.0
+		"Dragon Health" = 500.0
 		#Change this to slow down or speed up dragon or amphithere flight.
 		#Range: 0.0 ~ 2.0
-		"Dragon Flight Speed Modifier" = 1.2
+		"Dragon Flight Speed Modifier" = 1.0
 		#Enable this if your server is being bombarded with moved wrongly or moved too fast console messages. REQUIRES RESTART!
-		"Dragon Moved Wrongly Error Fix" = true
+		"Dragon Moved Wrongly Error Fix" = false
 		#Damage dealt from a successful fire breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 		#Range: 0.0 ~ 10000.0
-		"Dragon Attack Damage(Fire breath)" = 3.0
+		"Dragon Attack Damage(Fire breath)" = 2.0
 		#Max dragon attack damage. Attack Damage is scaled to this
 		#Range: 1 ~ 10000
-		"Dragon Attack Damage" = 20
+		"Dragon Attack Damage" = 17
 		#How long it takes(in ticks) for a dragon egg to hatch
 		#Range: > 1
-		"Dragon Egg Hatch Time" = 9400
+		"Dragon Egg Hatch Time" = 7200
 		#Dragon Flap Noise Distance - Larger number, further away you can hear it
 		#Range: 0 ~ 10000
 		"Dragon Flap Noise Distance" = 4
 		#Damage dealt from a successful ice breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 		#Range: 0.0 ~ 10000.0
-		"Dragon Attack Damage(Ice breath)" = 3.5
+		"Dragon Attack Damage(Ice breath)" = 2.5
 
 [Mobs]
 
@@ -169,13 +169,13 @@
 		"Sea Serpent Griefing" = true
 		#Default sea serpent attack strength, this is scaled to the sea serpent's particular size
 		#Range: 1.0 ~ 10000.0
-		"Sea Serpent Base Attack Strength" = 5.0
+		"Sea Serpent Base Attack Strength" = 4.0
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Sea Serpent Chance" = 275
+		"Spawn Sea Serpent Chance" = 250
 		#Default sea serpent health, this is scaled to the sea serpent's particular size
 		#Range: 1.0 ~ 10000.0
-		"Sea Serpent Base Health" = 25.0
+		"Sea Serpent Base Health" = 20.0
 
 	[Mobs.Others]
 		#True if hydra caves are allowed to generate
@@ -349,12 +349,12 @@
 	[Mobs.Pixies]
 		#size of pixie villages
 		#Range: 1 ~ 10000
-		"Pixie Village Size" = 3
+		"Pixie Village Size" = 5
 		#True if pixie villages are allowed to spawn
 		"Spawn Pixies" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Pixies Chance" = 80
+		"Spawn Pixies Chance" = 60
 		#True if pixies are allowed to steal from players
 		"Pixies Steal Items" = true
 
